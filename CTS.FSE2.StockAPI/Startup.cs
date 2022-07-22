@@ -50,7 +50,7 @@ namespace CTS.FSE2.StockAPI
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("./v1/swagger.json", "StockMarket - Stock Service");
+                c.SwaggerEndpoint("./v1/swagger.json", "StockMarket - Stock Services");
             });
 
             app.UseEndpoints(endpoints =>
